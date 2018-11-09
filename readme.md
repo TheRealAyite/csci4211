@@ -1,1 +1,1 @@
-New Readme for my server.
+New read me for my server.
