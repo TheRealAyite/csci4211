@@ -7,7 +7,7 @@ def createConnection():
     s = socket.socket()
     s.connect((host, port))
 
-    message = input("Please enter you query. (CLIENT ID, HOSTNAME, I/R) separate the parameters by space: ")
+    message = input("Please enter you query. (CLIENT ID, HOSTNAME, I/R) separate the parameters by comma. No need for parens: ")
     while message != 'q':
         s.send(message.encode())
         data = s.recv(1024)
