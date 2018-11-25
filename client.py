@@ -2,7 +2,7 @@ import socket
 
 def createConnection():
     host = '127.0.0.1'
-    port = 8080
+    port = 5352
 
     s = socket.socket()
     s.connect((host, port))

@@ -1,0 +1,148 @@
+pc1, google.org, r
+default_local, www.google.org, R
+0xFF, org, Host not found
+
+
+PC2, www.frEEwiFicafe.OrG, I
+default_local, www.freewificafe.org, I
+0x01, ROOT, 127.0.0.1, 5354
+default_local,www.freewificafe.org , i
+0x00, org, 45.63.485.34
+
+
+pc1, google.org, r
+default_local, www.google.org, R
+0xFF, org, Host not found
+
+
+pc1, google.rov, r
+default_local, www.google.rov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc1, google.org, r
+default_local, www.google.org, R
+pc1, google.org, i
+default_local, www.google.org, I
+0x01, ROOT, 127.0.0.1, 5354
+default_local,www.google.org , i
+0xFF, org, Host not found
+
+
+pc1, google.org, i
+default_local, www.google.org, I
+0x01, ROOT, 127.0.0.1, 5354
+default_local,www.google.org , i
+0xFF, org, Host not found
+
+
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
+pc2, google.gov, r
+default_local, www.google.gov, R
+pc1, google.gov, r
+default_local, www.google.gov, R
+0xFF, gov, Host not found
+
+
