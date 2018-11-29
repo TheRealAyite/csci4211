@@ -1,0 +1,18 @@
+pc1,sppl.org,i
+default_local, www.sppl.org, I
+0x01, ROOT, 127.0.0.1, 5354
+default_local,www.sppl.org , i
+0x00, org, 206.223.160.80
+
+
+
+pc2,redrivercleaningservices.com,r
+default_local, www.redrivercleaningservices.com, R
+0x00, com, 234.578.200.21
+
+
+pc2,redrivercleaningservices.com,i
+default_local, www.redrivercleaningservices.com, I
+0x01, ROOT, 127.0.0.1, 5356
+default_local,www.redrivercleaningservices.com , i
+0x00, com, 234.578.200.21

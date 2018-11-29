@@ -34,3 +34,7 @@ Assumptions:
 
 - Cache.txt is assumed to be a text file. It is loaded as a dictionary at startup, populated with iterative queries only (cached as per project specifications), and at shutdown is written to a file for next time. If you wish to clear the cache or remove an item from it please do so.
   to remove an item remove all instances of that line and to delete the cache completely delete all lines in the file. WARNING: keep cache.txt, do not delete it. Only delete the contents
+
+- Mapping.log has effectively been replaced with cache.txt. I talked to a TA and they said they were doing away with mapping.log so I have mine called cache.txt
+
+- Recursive queries are not cached per the project specifications. Only iterative requests are cached.
