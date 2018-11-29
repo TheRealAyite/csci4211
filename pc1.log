@@ -1,20 +1,53 @@
-PC1, www.youtube.com, R
-0xEE, default_local, Invalid format
-pc1, www.youtube.com, r
-0xEE, default_local, Invalid format
-pc1, www.youtube.com, r
-0xEE, default_local, Invalid format
-pc1, www.youtube.com, r
-0xEE, default_local, Invalid format
-pc1, www.youtube.com, r
-0xEE, default_local, Invalid format
-pc1, www.youtube.com, R
-0xEE, default_local, Invalid format
-pc1, www.youtube.com, r
-0xEE, default_local, Invalid format
-pc1, www.youtube.com, r
-0xEE, default_local, Invalid format
-pc1, www.amazon.com, r
-0xEE, default_local, Invalid format
-pc1, google.org, h
-0xEE, default_local, Invalid format
+pc1,google.gov,i
+127.0.0.1:5355
+
+
+pc1,google.gov,i
+Sent from Cache: 127.0.0.1:5355
+
+pc1,www.teachscape.com,i
+0x00, com, 69.36.226.171
+
+
+
+pc1,google.gov,i
+0xFF, gov, Host not found
+
+
+pc1,www.testcase.org,i
+0x00, org, 78.46.893.288
+
+
+
+pc1,google.gov,i
+Sent from Cache: 0xFF, gov, Host not found
+
+pc1,google.gov,i
+0xFF, gov, Host not found
+
+
+pc1,google.gov,i
+0xFF, gov, Host not found
+
+
+pc1,google.gov,i
+Sent from Cache: 0xFF, gov, Host not found
+
+pc1,www.google.com,r
+0x00, com, 216.58.192.164
+
+
+
+pc1,www.google.com,i
+0x00, com, 216.58.192.164
+
+
+
+pc1,www.google.com,i
+Sent from Cache: 0x00, com, 216.58.192.164
+
+pc1,www.trafficcontrol.gov,i
+0x00, gov, 59.024.89.289
+
+
+

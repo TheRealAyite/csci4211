@@ -1,5 +1,14 @@
 import socket
+from _thread import *
+from time import sleep
 
+def listen(socket):
+    while True:
+        data = socket.recv(2048)
+        response = data.decode()
+        if  not data:
+            break
+        print(response + "\n")
 def createConnection():
     host = '127.0.0.1'
     port = 5352
@@ -10,9 +19,11 @@ def createConnection():
     message = input("Please enter you query. (CLIENT ID, HOSTNAME, I/R) separate the parameters by comma. No need for parens: ")
     while message != 'q':
         s.send(message.encode())
-        data = s.recv(1024)
-        print("Received From Server: " + str(data.decode()))
-        message = input("Please Enter Some Data: ")
+        while True:
+            start_new_thread(listen, (s,))
+            sleep(1)
+            break
+        message = input("Please Enter A Query: ")
     s.close()
 
 

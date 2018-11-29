@@ -1,3 +1,0 @@
-www.google.com, This is the port1
-www.facebook.com, This is the port2
-www.twitter.com, This is the port3
