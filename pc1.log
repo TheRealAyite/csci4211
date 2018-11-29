@@ -14,3 +14,11 @@ pc1
 0xEE, default_local, Invalid format
 
 
+pc1,google.gove,i
+0xEE, default_local, Invalid format
+
+
+pc1,google.gov,i
+0xFF, gov, Host not found
+
+

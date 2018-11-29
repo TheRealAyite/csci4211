@@ -10,3 +10,8 @@ www.sppl.org/0x00, org, 206.223.160.80
 
 www.redrivercleaningservices.com/0x00, com, 234.578.200.21
 
+www.sppl.org/0x00, org, 206.223.160.80
+
+www.redrivercleaningservices.com/0x00, com, 234.578.200.21
+
+www.google.gov/0xFF, gov, Host not found

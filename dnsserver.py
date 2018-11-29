@@ -1,3 +1,7 @@
+#AUTHOR:
+    #Ayite D'almeida,
+    #X500: dalme003@umn.edu
+    # This is my server file and will basically take input from a client and process it and send back a response based on the validity of the query and the hostname.
 import socket
 import sys
 from _thread import *
@@ -135,8 +139,8 @@ def com_server(socket): #same as org and gov servers.....kept 3 methods for easi
     print(str(mapping) + " For com\n")
 
     while True:
-        data = connection.recv(1024)
-        request = data.decode()
+        data = connection.recv(1024) #Received the responses
+        request = data.decode() #turn into a string for processing
 
         if "www" not in request:
             request = "www." + request
@@ -344,14 +348,20 @@ def check_if_valid_query(request):
         log_query(request, client_id)
         log_error("0xEE, default_local, Invalid format",client_id)
         return (False)
+
     valid_tld = find_tld(host_name)
+
     if valid_tld == False:
         return (False)
+
     return (client_id,host_name,query_type,True)
+
 def find_tld(domain):
     #find the last occurence of a period which is the tld.....
     length = len(domain.split('.'))
+
     tld = domain.split('.')[len(domain.split('.')) - 1] #find the TLD of the domain name that was input
+
     if tld =='com':
         return 'com'
     elif tld =='org':
@@ -454,7 +464,7 @@ def new_query(connection): #this method takes in a connection to a client and li
                 resolve_query(request,vals,connection)
     print("Broke out of the loop")
 
-def sendShutdownAndWriteToCache(connections):
+def send_shutdown_and_write_to_cache(connections):
     for domain in cache: #cache each key in the cache
         print("Cached Domains: " + cache[domain] + "\n")
         cache_response(domain + "/" + cache[domain] + "\n")
@@ -464,7 +474,7 @@ def sendShutdownAndWriteToCache(connections):
 
 def start_server(): # start the server and listen for connections...procceses new queries...
     connections = []
-    atexit.register(sendShutdownAndWriteToCache,connections=connections) #this will run on sendShutdownAndWriteToCache() on shutdown
+    atexit.register(send_shutdown_and_write_to_cache,connections=connections) #this will run on sendShutdownAndWriteToCache() on shutdown
     while True:
         connection, addr = s.accept() #accept connections
         connections.append(connection) #add to list of connections to send shutdown message later on

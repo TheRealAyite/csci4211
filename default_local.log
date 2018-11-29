@@ -16,3 +16,10 @@ default_local, www.redrivercleaningservices.com, I
 0x01, ROOT, 127.0.0.1, 5356
 default_local,www.redrivercleaningservices.com , i
 0x00, com, 234.578.200.21
+pc1,google.gov,i
+default_local, www.google.gov, I
+default_local,www.google.gov , i
+0x01, ROOT, 127.0.0.1, 5355
+0xFF, gov, Host not found
+
+
